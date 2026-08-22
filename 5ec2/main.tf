@@ -16,7 +16,7 @@ provider "aws" {
 
 
 variable "servers" {
-  default = ["web", "app", "db", "jenkins", "monitoring"]
+  default = ["web", "app"]
 }
 
 resource "aws_instance" "server" {
